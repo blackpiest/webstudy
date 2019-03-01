@@ -1,4 +1,13 @@
 body {
+  width: 960px;
   font-family: "Helvatica Neue", "Helvatica", Arial, sans-serif;
+  margin: auto;
+}
+
+a {
   color: black;
+}
+
+ul {
+  line-height: 36px;
 }

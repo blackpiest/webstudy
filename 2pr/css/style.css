@@ -15,3 +15,18 @@ h1, h2, a {
 .img {
   float: left;
 }
+
+/* =============
+На главную
+============= */
+.back-main {
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#back {
+  margin: 0 auto 30px 500px;
+}
