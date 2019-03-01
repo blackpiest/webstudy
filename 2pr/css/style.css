@@ -1,0 +1,17 @@
+body {
+  margin: auto;
+  width: 960px;
+  font-family: Helvatica, Arial, sans-serif;
+}
+
+h1, h2, a {
+  color: #1a1522;
+}
+
+#content {
+  margin-top: 50px;
+}
+
+.img {
+  float: left;
+}

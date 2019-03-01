@@ -1,0 +1,33 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: black;
+  border-top: 1px solid #cecfd5;
+  margin: 20px;
+}
+
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+
+.car {
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.index-back {
+  display: inline-block;
+  border: 1px solid #1a1522;
+  border-radius: 20px;
+  color: #1a1522;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}

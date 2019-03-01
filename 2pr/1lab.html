@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-lab1.css">
+    <title>Web-Design - Практическая работа 2</title>
+  </head>
+  <body>
+    <!-- Список заданий -->
+    <header>
+      <h1>Задания</h1>
+      <h3>Задание 1</h3>
+      <p>Создать веб-страницу, содержащую три следующих таблицы:</p>
+      <h3>Задание 2</h3>
+      <p>Создать веб-страницу, в которой должны присутствовать теги для выделения <br>
+         фрагментов текста, заголовки, абзацы, разрывы строк, нумерованный список, <br>
+         ненумерованный список, изображения.</p>
+      <h3>Задание 3</h3>
+      <p>Создать веб-страницу с веб-формой, содержащей элементы управления в <br>
+         соответствии с вариантом. Предусмотреть проверку корректности данных. <br>
+         Обязательно должна быть кнопка, очищающая данные формы.</p>
+      <hr>
+    </header>
+    <!-- Задание 1-2 -->
+    <div>
+        <h2>Задание 1-2</h2>
+      <!-- Таблицы 1 -->
+      <section>
+        <small>Таблицы 1</small>
+        <table class="table-style">
+        <tr>
+          <td scope="col">1</td>
+          <td scope="col">2</td>
+          <td scope="col" rowspan="2">3</td>
+        </tr>
+        <tr>
+          <td scope="col">4</td>
+          <td scope="col">5</td>
+        </tr>
+        <tr>
+          <td scope="col">7</td>
+          <td scope="col">8</td>
+          <td scope="col">9</td>
+        </tr>
+        </table>
+      </section>
+      <!-- Таблицы 2 -->
+      <section>
+        <small>Таблицы 2</small>
+        <table class="table-style">
+        <tr>
+          <td scope="col" colspan="3">1</td>
+        </tr>
+        <tr>
+          <td scope="col">2</td>
+          <td scope="col">3</td>
+          <td scope="col" rowspan="3">4</td>
+        </tr>
+        <tr>
+          <td scope="col">5</td>
+          <td scope="col">6</td>
+        </tr>
+        <tr>
+          <td scope="col">7</td>
+          <td scope="col">8</td>
+        </tr>
+        <tr>
+          <td scope="col" colspan="3">9</td>
+        </tr>
+        </table>
+      </section>
+      <!-- Таблицы 3 -->
+      <section>
+        <small>Таблицы 3</small>
+        <table class="table-style">
+        <tr>
+          <td scope="col">1</td>
+          <td scope="col">2</td>
+          <td scope="col" rowspan="2">3</td>
+          <td scope="col" rowspan="3">8</td>
+          <td scope="col" rowspan="3">9</td>
+        </tr>
+        <tr>
+          <td scope="col">4</td>
+          <td scope="col">5</td>
+        </tr>
+        <tr>
+          <td scope="col" colspan="2">6</td>
+          <td scope="col">7</td>
+        </tr>
+        <tr>
+          <td scope="col" colspan="3">10</td>
+          <td scope="col">11</td>
+          <td scope="col">12</td>
+        </tr>
+        <tr>
+          <td scope="col" colspan="4">13</td>
+          <td scope="col">14</td>
+        </tr>
+        </table>
+      </section>
+      <hr>
+    </div>
+    <!-- Задание 3 -->
+    <div>
+      <br>
+      <h2>Задание 3</h2>
+      <form>
+            <fieldset class="car">
+              <legend>Данные об автомобиле</legend>
+              <figcaption>Марка</figcaption>
+              <input type="text" name="brand" value="" required>
+              <figcaption>Цвет</figcaption>
+              <input type="color" name="color" value="">
+              <figcaption>Заводской номер</figcaption>
+              <input type="text" name="serial-number" value="" required>
+              <figcaption>Бортовой номер</figcaption>
+              <input type="text" name="side-number" value="" required>
+              <figcaption>Дата выпуска</figcaption>
+              <input type="date" name="data-release" value="" required>
+              <figcaption>Особенности</figcaption>
+              <textarea name="other" rows="4" cols="30"></textarea>
+              <figcaption>Дата последнего тех.осмотра</figcaption>
+              <input type="date" name="tech-inspection" value="" required>
+
+              <figcaption><b>Паспорт:</b></figcaption>
+              <p>Серия <input type="number" name="serial-pass" value="" required></p>
+              <p>Номер <input type="number" name="number-pass" value="" required></p>
+              <p>ФИО <input type="text" name="full-name" value="" required></p>
+              <input type="submit" name="button" value="Отправить">
+              <input type="reset" name="reset" value="Сброс">
+            </fieldset>
+        </form>
+        <hr>
+    </div>
+    <!-- Задание 4 -->
+    <div>
+      <h2>Задание 4</h2>
+      <img src="cat.gif" alt="котейка плачет"><br>
+      <audio controls>
+        <source src="sound.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <footer>
+      <a href="index.html" class="index-back">На главную</a>
+    </footer>
+  </body>
+</html>
