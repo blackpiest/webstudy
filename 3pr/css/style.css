@@ -333,6 +333,139 @@ a {
   padding: 5px 0 5px 5px;
   color: white;
 }
+
+/* =============
+Задание 9
+============= */
+.task-9 {
+  width: 620px;
+  display: block;
+}
+
+.header-9 {
+  position: relative;
+  width: 600px;
+  background: #639a7b;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+  z-index: 0;
+}
+
+.paragraph-9 {
+  position: relative;
+  margin-left: auto;
+  margin-top: -25px;
+  width: 400px;
+  padding: 10px;
+  background: #cdcdcd;
+  text-align: left;
+  z-index: 1;
+}
+
+/* =============
+Задание 10
+============= */
+.square-black {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: #000;
+  margin-right: 30px;
+}
+
+.square-blue {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: #01b9f4;
+  margin-right: 30px;
+}
+
+.square-black:hover, .square-blue:hover {
+  background: #e4ae37;
+  cursor: pointer;
+}
+
+/* =============
+Задание 11
+============= */
+.table-11 {
+  width: 900px;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 10px;
+}
+
+.th-11 {
+  border-right: 1px solid #6dbbf5;
+  background: linear-gradient(#5181c9, #6f87dd);
+  padding: 10px;
+  color: #fff;
+}
+
+.th-11:last-child {
+  border: 0;
+}
+
+.td-11:first-child {
+  border-left: 1px solid #6dbbf5;
+}
+
+.td-11 {
+  border-right: 1px solid #6dbbf5;
+  border-bottom: 1px solid #6dbbf5;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.tr-11:nth-child(even) {
+  background: #dbeff6;
+}
+
+.numb-11, .date-11, .amount-11 {
+  text-align: right;
+}
+
+.total-11 {
+  text-align: left;
+  font-weight: bold;
+  background: #8de1f0;
+}
+.amount-total-11 {
+  text-align: right;
+  font-weight: bold;
+  background: #8de1f0;
+}
+.amount-6-11 {
+  background: #ffc8c8;
+}
+
+/* =============
+Задание 12
+============= */
+.block-12 {
+  display: block;
+  width: 350px;
+  background: #9096cf;
+  text-align: center;
+  color: #2654b1;
+  font-size: 26px;
+  font-weight: 600;
+  padding: 50px;
+  border: 5px solid #2654b1;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  transition: transform 2s;
+}
+
+.block-12:hover {
+  transform: rotate(20deg) translate(50px, 24px) skewY(75deg);
+}
+
 /* =============
 На главную
 ============= */
