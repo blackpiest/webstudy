@@ -9,6 +9,12 @@ a {
   color: black;
 }
 
+.img-header {
+  float:left;
+  margin: 20px 40px 800px 20px;
+  width: 25%;
+}
+
 .header-zadanie {
   width: 200px;
   text-align: center;
