@@ -1,0 +1,48 @@
+/* Стикер возвращения */
+.sticker-button {
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+
+  background: #bfbfbf;
+  border-radius: 200px;
+  box-shadow: 0 0 10px rgba(69, 25, 25, 0.31);
+  opacity: 0.5;
+}
+.sticker-button p {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #737373;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.sticker-button:hover {
+  background: #dfdfdf;
+  opacity: 0.9;
+  color: #5d5d5d;
+}
+
+/* =============
+На главную
+============= */
+.back-main {
+  color: black;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#back {
+  margin: 0 auto 30px 500px;
+}
+
+.main-page section a {
+  color: black;
+}
