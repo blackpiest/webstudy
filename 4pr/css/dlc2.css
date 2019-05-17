@@ -1,0 +1,18 @@
+body section h3 {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px; }
+
+body section h3 {
+  font-family: Arial, sans-serif;
+  color: #000;
+  text-decoration: underline;
+  -webkit-text-shadow: 0 0 10px rgba(52, 52, 52, 0.4);
+  -moz-text-shadow: 0 0 10px rgba(52, 52, 52, 0.4);
+  -ms-text-shadow: 0 0 10px rgba(52, 52, 52, 0.4);
+  text-shadow: 0 0 10px rgba(52, 52, 52, 0.4); }
+body section a {
+  font-style: italic;
+  font-size: 16px; }
+
+/*# sourceMappingURL=dlc2.css.map */

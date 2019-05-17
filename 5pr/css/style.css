@@ -1,0 +1,22 @@
+* {
+  margin: 2px;
+}
+
+.pr-1 .row div {
+  background: #d2794d;
+  color: #7d482e;
+  text-align: center;
+}
+
+.pr-1, .pr-2, .pr-3, .pr-4,
+.pr-5, .pr-6, .pr-7, .pr-8 {
+  border: 1px solid #e7e7e7;
+  border-radius: 60px;
+  padding: 50px;
+  overflow: scroll;
+  margin-top: 20px;
+}
+
+.pr-7 .card {
+  margin: 10px;
+}

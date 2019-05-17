@@ -1,0 +1,35 @@
+//переменые
+$font-stack: Arial, sans-serif;
+$primary-color: #000;
+
+//примеси
+@mixin text-shadow($shadow) {
+  -webkit-text-shadow: $shadow;
+  -moz-text-shadow: $shadow;
+  -ms-text-shadow: $shadow;
+  text-shadow: $shadow;
+}
+
+//наследование
+%text-shared {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+//вложенность
+body {
+  section {
+    h3 {
+      @extend %text-shared;
+      font-family: $font-stack;
+      color: $primary-color;
+      text-decoration: underline;
+      @include text-shadow (0 0 10px rgba(52, 52, 52, 0.4)); //примеси
+    }
+    a {
+      font-style: italic;
+      font-size: 20px - 4px; //вычисления
+    }
+  }
+}
